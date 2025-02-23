@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB e CMYK - Teoria das Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RGB e CMYK - Teoria das Cores</h1>
+    </header>
+
+    <section id="intro">
+        <h2>Introdução aos Modelos de Cor</h2>
+        <p>Os modelos RGB e CMYK são fundamentais para a representação e manipulação de cores em diferentes contextos, como a exibição em telas e a impressão em papel. Vamos explorar como cada modelo funciona e como eles se aplicam ao design e à impressão.</p>
+    </section>
+
+    <section id="rgb-section">
+        <h2>Modelo RGB (Red, Green, Blue)</h2>
+        <p>O modelo RGB é utilizado para representar cores em dispositivos que emitem luz, como monitores de computador, televisores, câmeras digitais e outros dispositivos eletrônicos. Ele é baseado na combinação de três cores primárias de luz: vermelho (Red), verde (Green) e azul (Blue).</p>
+
+        <img src="modelo-rgb.png" alt="Modelo RGB" class="image">
+        
+        <h3>Funcionamento do Pixel no RGB</h3>
+        <p>Cada pixel em uma tela RGB é composto por subpixels de cores vermelha, verde e azul. A intensidade de cada cor varia de 0 a 255, criando uma gama de 16 milhões de cores possíveis. Quando os três subpixels emitem luz em diferentes intensidades, o resultado é a percepção de uma cor combinada.</p>
+
+        <img src="pixel-rgb.jpg" alt="Funcionamento do Pixel RGB" class="image">
+    </section>
+
+    <section id="cmyk-section">
+        <h2>Modelo CMYK (Cyan, Magenta, Yellow, Key/Black)</h2>
+        <p>O modelo CMYK é utilizado em impressão, sendo uma abordagem subtrativa. Em vez de emitir luz como no modelo RGB, ele utiliza tintas (ou pigmentos) nas cores ciano (Cyan), magenta (Magenta), amarelo (Yellow) e preto (Key/Black) para criar uma vasta gama de cores.</p>
+ 
+        <img src="cmyk-modelo.webp" alt="Modelo CMYK" class="image">
+        
+        <h3>Funcionamento da Impressão no CMYK</h3>
+        <p>Ao contrário do modelo RGB, que combina luz para criar cores, o modelo CMYK combina tintas para subtrair a luz, resultando em diferentes cores dependendo da quantidade de tinta aplicada. O preto (K) é usado para criar sombras e melhorar o contraste, já que as tintas ciano, magenta e amarela não podem gerar preto puro.</p>
+
+        <img src="modo-de-impressão-cmyk.png" alt="Impressão CMYK" class="image">
+    </section>
+
+    <section id="comparison">
+        <h2>Comparação entre RGB e CMYK</h2>
+        <p>Embora tanto o RGB quanto o CMYK sejam usados para representar cores, eles funcionam de maneira muito diferente. O RGB é usado para displays de luz (como monitores), enquanto o CMYK é usado para impressões, que dependem de tintas. A principal diferença está no modo de mistura das cores:</p>
+
+        <ul>
+            <li><strong>RGB:</strong> Sistema aditivo, onde as cores são criadas pela adição de luz nas cores primárias: vermelho, verde e azul.</li>
+            <li><strong>CMYK:</strong> Sistema subtrativo, onde as cores são criadas pela remoção de luz ao aplicar tintas ciano, magenta, amarelo e preto.</li>
+        </ul>
+
+        <h3>Exemplo Visual de RGB vs. CMYK</h3>
+        <!-- Imagem comparativa de RGB e CMYK -->
+        <img src="rgb e cmyk.avif" alt="Comparação entre RGB e CMYK" class="image">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Produzido por Heitor Ferreira </p>
+    </footer>
+</body>
+</html>
